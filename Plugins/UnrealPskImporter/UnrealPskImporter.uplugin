@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UnrealPsk",
+	"Description": "A psk/psa importer for Unreal Engine.",
+	"Category": "Import",
+	"CreatedBy": "Half",
+	"CreatedByURL": "https://twitter.com/HalfHeart",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "UnrealPskImporter",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
