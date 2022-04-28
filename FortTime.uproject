@@ -17,6 +17,14 @@
 		{
 			"Name": "UnrealPskImporter",
 			"Enabled": true
+		},
+		{
+			"Name": "JsonAsAsset",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
 		}
 	]
 }

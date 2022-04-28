@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Runtime/Engine/Classes/Animation/AnimInstance.h"
+#include "FortTime/FortTime.h"
 #include "FortAnimInstanceTest.generated.h"
 
 /**
@@ -37,6 +38,18 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "FortAnimInstance")
 		float YawDelta;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "FortAnimInstance|Character")
+		bool bIsSprinting;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "FortAnimInstance|Character")
+		bool bIsFalling;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "FortAnimInstance|Character")
+		bool bIsAccelerating;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "FortAnimInstance|Character")
+		TEnumAsByte<EFortCustomGender> Gender;
 
 	
 
