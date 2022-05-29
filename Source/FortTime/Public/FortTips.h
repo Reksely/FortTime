@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS(BlueprintType)
+UCLASS()
 class FORTTIME_API UFortTips : public UDataAsset
 {
 	GENERATED_BODY()

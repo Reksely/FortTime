@@ -4,13 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
+#include "FortItemDefinition.h"
 #include "FortWeaponItemDefinitionBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class FORTTIME_API UFortWeaponItemDefinitionBase : public UDataAsset
+class FORTTIME_API UFortWeaponItemDefinitionBase : public UFortItemDefinition
 {
 	GENERATED_BODY()
 
