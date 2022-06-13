@@ -4,6 +4,13 @@
 #include "FortGameInstanceBase.h"
 #include "WebSocketsModule.h"
 
+UFortGameInstanceBase::UFortGameInstanceBase()
+{
+
+	RecordingName = "FortReplay" + SavedReplays;
+	FriendlyRecordingName = "Test Replay";
+}
+
 void UFortGameInstanceBase::Init()
 {
 	Super::Init();
@@ -57,4 +64,26 @@ void UFortGameInstanceBase::Shutdown()
 		WebSocket->Close();
 	}
 	Super::Shutdown();*/
+}
+
+void UFortGameInstanceBase::StartRecording()
+{
+
+	if (bReplayEnabled == true)
+	{
+		StartRecordingReplay(RecordingName, FriendlyRecordingName);
+	}
+}
+
+void UFortGameInstanceBase::StopRecording()
+{
+	
+	StopRecordingReplay();
+	SavedReplays = SavedReplays + 1;
+	GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Green, TEXT("Saved Replay: %lld"));
+}
+
+void UFortGameInstanceBase::StartReplay()
+{
+	PlayReplay(RecordingName, nullptr);
 }

@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Public/FortItemDefinition.h"
+#include "FortTime.generated.h"
 
 UENUM(BlueprintType)
 enum EFortCustomGender
@@ -24,5 +26,31 @@ enum EFortRarity
 	Transcendent UMETA(DisplayName = "Transcendent"),
 };
 
+
+USTRUCT(BlueprintType)
+struct FFortItemEntry
+{
+	GENERATED_BODY()
+
+	UPROPERTY(BlueprintReadWrite)
+	int Count;
+	UPROPERTY(BlueprintReadWrite)
+	int PreviousCount;
+	UPROPERTY(BlueprintReadWrite)
+	UFortItemDefinition* ItemDefinition;
+	UPROPERTY(BlueprintReadWrite)
+	float Durability;
+	UPROPERTY(BlueprintReadWrite)
+	int Level;
+	UPROPERTY(BlueprintReadWrite)
+	int LoadedAmmo;
+
+
+	FFortItemEntry()
+	{
+
+	}
+
+};
 
 
