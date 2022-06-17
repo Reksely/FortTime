@@ -5,7 +5,7 @@ Developed with Unreal Engine 4.
 ## - Credits
 
  - UnrealPskImporter || @HalfHeart on twitter.
- - Animations & Other things || Tector @tectow on twitter.
+ - Animations, JsonAsAsset & Other things || Tector @tectow on twitter.
 
 ## - License
 
