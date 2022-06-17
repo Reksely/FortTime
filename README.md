@@ -2,10 +2,10 @@
 
 Developed with Unreal Engine 4.
 
-# Credits
+## - Credits
 
-UnrealPskImporter || @HalfHeart on twitter.
-Animations & Other things || Tector @tectow on twitter.
+ - UnrealPskImporter || @HalfHeart on twitter.
+ - Animations & Other things || Tector @tectow on twitter.
 
 ## - License
 
