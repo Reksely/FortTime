@@ -1,5 +1,12 @@
 # FortTime
 
-Developed with Unreal Engine 4
+Developed with Unreal Engine 4.
 
-Credits: UnrealPskImporter || halfuwu on github, @HalfHeart on twitter
+## - Credits
+
+ - UnrealPskImporter || @HalfHeart on twitter.
+ - Animations, JsonAsAsset & Other things || Tector @tectow on twitter.
+
+## - License
+
+- This project is licensed under the [MIT License](/LICENSE), You can use the project however you want but **giving credits**.
